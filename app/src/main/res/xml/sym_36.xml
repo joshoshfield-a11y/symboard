@@ -55,7 +55,6 @@
         <Key android:keyOutputText="ⅺ" android:keyLabel="ⅺ" />
         <Key android:keyOutputText="ⅻ" android:keyLabel="ⅻ" android:keyEdgeFlags="right" />
     </Row>
-    <!-- Navigation row: prev / space / next / delete / return -->
     <Row>
         <Key android:codes="-201" android:keyLabel="◀" android:keyWidth="12%p" android:keyEdgeFlags="left" />
         <Key android:codes="32" android:keyLabel="space" android:keyWidth="44%p" />
