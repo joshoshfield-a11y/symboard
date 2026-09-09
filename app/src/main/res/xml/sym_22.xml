@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Superscript — generated page 22/36 of Symboard -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:horizontalGap="3dp"
+    android:verticalGap="5dp"
+    android:keyHeight="44dp">
+    <Row>
+        <Key android:keyOutputText="⁰" android:keyLabel="⁰" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="¹" android:keyLabel="¹" />
+        <Key android:keyOutputText="²" android:keyLabel="²" />
+        <Key android:keyOutputText="³" android:keyLabel="³" />
+        <Key android:keyOutputText="⁴" android:keyLabel="⁴" />
+        <Key android:keyOutputText="⁵" android:keyLabel="⁵" />
+        <Key android:keyOutputText="⁶" android:keyLabel="⁶" />
+        <Key android:keyOutputText="⁷" android:keyLabel="⁷" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyOutputText="⁸" android:keyLabel="⁸" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="⁹" android:keyLabel="⁹" />
+        <Key android:keyOutputText="ᵃ" android:keyLabel="ᵃ" />
+        <Key android:keyOutputText="ᵇ" android:keyLabel="ᵇ" />
+        <Key android:keyOutputText="ᶜ" android:keyLabel="ᶜ" />
+        <Key android:keyOutputText="ᵈ" android:keyLabel="ᵈ" />
+        <Key android:keyOutputText="ᵉ" android:keyLabel="ᵉ" />
+        <Key android:keyOutputText="ᶠ" android:keyLabel="ᶠ" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyOutputText="ᵍ" android:keyLabel="ᵍ" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="ʰ" android:keyLabel="ʰ" />
+        <Key android:keyOutputText="ⁱ" android:keyLabel="ⁱ" />
+        <Key android:keyOutputText="ʲ" android:keyLabel="ʲ" />
+        <Key android:keyOutputText="ᵏ" android:keyLabel="ᵏ" />
+        <Key android:keyOutputText="ˡ" android:keyLabel="ˡ" />
+        <Key android:keyOutputText="ᵐ" android:keyLabel="ᵐ" />
+        <Key android:keyOutputText="ⁿ" android:keyLabel="ⁿ" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyOutputText="ᵒ" android:keyLabel="ᵒ" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="ᵖ" android:keyLabel="ᵖ" />
+        <Key android:keyOutputText="ʳ" android:keyLabel="ʳ" />
+        <Key android:keyOutputText="ˢ" android:keyLabel="ˢ" />
+        <Key android:keyOutputText="ᵗ" android:keyLabel="ᵗ" />
+        <Key android:keyOutputText="ᵘ" android:keyLabel="ᵘ" />
+        <Key android:keyOutputText="ᵛ" android:keyLabel="ᵛ" />
+        <Key android:keyOutputText="ʷ" android:keyLabel="ʷ" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyOutputText="ˣ" android:keyLabel="ˣ" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="ʸ" android:keyLabel="ʸ" />
+        <Key android:keyOutputText="ᶻ" android:keyLabel="ᶻ" android:keyEdgeFlags="right" />
+    </Row>
+    <!-- Navigation row: prev / space / next / delete / return -->
+    <Row>
+        <Key android:codes="-201" android:keyLabel="◀" android:keyWidth="12%p" android:keyEdgeFlags="left" />
+        <Key android:codes="32" android:keyLabel="space" android:keyWidth="44%p" />
+        <Key android:codes="-202" android:keyLabel="▶" android:keyWidth="12%p" />
+        <Key android:codes="-5" android:keyLabel="⌫" android:keyWidth="16%p" android:isRepeatable="true" />
+        <Key android:codes="-4" android:keyLabel="↵" android:keyWidth="16%p" android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>

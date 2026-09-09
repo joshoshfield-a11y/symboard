@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Symboard input view: category label strip + legacy KeyboardView.
+    Android will render the label row even though the KeyboardView is a
+    single custom view; the ◀ ▶ keys in each page cycle layouts.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/keyboard_background">
+
+    <TextView
+        android:id="@+id/category_label"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/category_bg"
+        android:gravity="center"
+        android:textColor="@color/category_text"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/keyboard_background"
+        android:keyBackground="@drawable/key_background"
+        android:keyTextColor="@color/key_text"
+        android:keyTextSize="18sp"
+        android:labelTextSize="12sp"
+        android:keyPreviewLayout="@layout/key_preview"
+        android:shadowRadius="0.0" />
+</LinearLayout>

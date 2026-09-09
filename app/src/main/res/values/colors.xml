@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboard_background">#14171C</color>
+    <color name="key_background">#2E3440</color>
+    <color name="key_face_light">#3F4756</color>
+    <color name="key_background_pressed">#5E3A2E</color>
+    <color name="key_border_pressed">#FF8C42</color>
+    <color name="key_border">#0B0D10</color>
+    <color name="key_text">#ECEFF4</color>
+    <color name="key_preview_background">#D08770</color>
+    <color name="key_preview_text">#FFFFFF</color>
+    <color name="category_text">#D8DEE9</color>
+    <color name="category_bg">#1F242C</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Symboard</string>
+    <string name="ime_label">Symboard</string>
+    <string name="enable_instructions">To enable Symboard:\n\n1. Settings → System → Languages &amp; input → On-screen keyboard\n2. Enable <b>Symboard</b>\n3. Switch keyboards with the globe/keyboard icon in any text field\n\nThen tap ◀ ▶ below the keyboard to cycle 36 symbol layouts.</string>
+</resources>

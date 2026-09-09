@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Punctuation — generated page 33/36 of Symboard -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:horizontalGap="3dp"
+    android:verticalGap="5dp"
+    android:keyHeight="44dp">
+    <Row>
+        <Key android:keyOutputText="«" android:keyLabel="«" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="»" android:keyLabel="»" />
+        <Key android:keyOutputText="‹" android:keyLabel="‹" />
+        <Key android:keyOutputText="›" android:keyLabel="›" />
+        <Key android:keyOutputText="“" android:keyLabel="“" />
+        <Key android:keyOutputText="”" android:keyLabel="”" />
+        <Key android:keyOutputText="‘" android:keyLabel="‘" />
+        <Key android:keyOutputText="’" android:keyLabel="’" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyOutputText="‚" android:keyLabel="‚" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="„" android:keyLabel="„" />
+        <Key android:keyOutputText="†" android:keyLabel="†" />
+        <Key android:keyOutputText="‡" android:keyLabel="‡" />
+        <Key android:keyOutputText="•" android:keyLabel="•" />
+        <Key android:keyOutputText="‣" android:keyLabel="‣" />
+        <Key android:keyOutputText="․" android:keyLabel="․" />
+        <Key android:keyOutputText="‥" android:keyLabel="‥" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyOutputText="…" android:keyLabel="…" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="‧" android:keyLabel="‧" />
+        <Key android:keyOutputText="′" android:keyLabel="′" />
+        <Key android:keyOutputText="″" android:keyLabel="″" />
+        <Key android:keyOutputText="‴" android:keyLabel="‴" />
+        <Key android:keyOutputText="‹" android:keyLabel="‹" />
+        <Key android:keyOutputText="›" android:keyLabel="›" />
+        <Key android:keyOutputText="、" android:keyLabel="、" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyOutputText="。" android:keyLabel="。" android:keyEdgeFlags="left" />
+        <Key android:keyOutputText="・" android:keyLabel="・" />
+        <Key android:keyOutputText="¿" android:keyLabel="¿" />
+        <Key android:keyOutputText="¡" android:keyLabel="¡" />
+        <Key android:keyOutputText="‽" android:keyLabel="‽" />
+        <Key android:keyOutputText="‸" android:keyLabel="‸" />
+        <Key android:keyOutputText="‽" android:keyLabel="‽" android:keyEdgeFlags="right" />
+    </Row>
+    <!-- Navigation row: prev / space / next / delete / return -->
+    <Row>
+        <Key android:codes="-201" android:keyLabel="◀" android:keyWidth="12%p" android:keyEdgeFlags="left" />
+        <Key android:codes="32" android:keyLabel="space" android:keyWidth="44%p" />
+        <Key android:codes="-202" android:keyLabel="▶" android:keyWidth="12%p" />
+        <Key android:codes="-5" android:keyLabel="⌫" android:keyWidth="16%p" android:isRepeatable="true" />
+        <Key android:codes="-4" android:keyLabel="↵" android:keyWidth="16%p" android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>
