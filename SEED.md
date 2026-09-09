@@ -1,3 +1,0 @@
-# Symboard
-
-Symbol-swipe Android keyboard. Initializing...
