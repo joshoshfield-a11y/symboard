@@ -86,9 +86,8 @@
         <Key android:keyOutputText="Ϟ" android:keyLabel="Ϟ" android:keyEdgeFlags="right" />
     </Row>
     <Row>
-        <Key android:keyOutputText="ϟ" android:keyLabel="ϟ" android:keyEdgeFlags="left" android:keyEdgeFlags="left|right" />
+        <Key android:keyOutputText="ϟ" android:keyLabel="ϟ" android:keyEdgeFlags="left|right" />
     </Row>
-    <!-- Navigation row: prev / space / next / delete / return -->
     <Row>
         <Key android:codes="-201" android:keyLabel="◀" android:keyWidth="12%p" android:keyEdgeFlags="left" />
         <Key android:codes="32" android:keyLabel="space" android:keyWidth="44%p" />
