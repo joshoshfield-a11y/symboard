@@ -71,7 +71,6 @@
         <Key android:keyOutputText="𝒚" android:keyLabel="𝒚" />
         <Key android:keyOutputText="𝒛" android:keyLabel="𝒛" android:keyEdgeFlags="right" />
     </Row>
-    <!-- Navigation row: prev / space / next / delete / return -->
     <Row>
         <Key android:codes="-201" android:keyLabel="◀" android:keyWidth="12%p" android:keyEdgeFlags="left" />
         <Key android:codes="32" android:keyLabel="space" android:keyWidth="44%p" />
