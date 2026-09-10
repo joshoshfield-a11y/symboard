@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Fancy Numbers — Symboard v1.1 scrollable page 35/36 (41 symbols) -->
+<!-- Fancy Numbers — Symboard v1.2 scrollable page 35/36 (41 device-renderable symbols) -->
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:keyWidth="12.5%p"
     android:horizontalGap="3dp"
