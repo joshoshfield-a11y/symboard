@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Symboard input view: category label strip + legacy KeyboardView.
-    Android will render the label row even though the KeyboardView is a
-    single custom view; the ◀ ▶ keys in each page cycle layouts.
+    Symboard v1.1 input view.
+    The symbol grid lives inside a ScrollView with a FIXED viewport height,
+    so pages with hundreds of symbols (Arrows has 422) never push the
+    navigation bar off screen. Vertical drag scrolls the grid; taps still
+    register as key presses. The nav row is a permanent button bar BELOW
+    the scroll area: it is part of the frame, never part of the keyboard.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -20,16 +23,36 @@
         android:textSize="13sp"
         android:textStyle="bold" />
 
-    <android.inputmethodservice.KeyboardView
-        android:id="@+id/keyboard_view"
+    <ScrollView
+        android:id="@+id/keyboard_scroll"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/keyboard_background"
-        android:keyBackground="@drawable/key_background"
-        android:keyTextColor="@color/key_text"
-        android:keyTextSize="18sp"
-        android:labelTextSize="12sp"
-        android:keyPreviewLayout="@layout/key_preview"
-        android:shadowRadius="0.0" />
+        android:layout_height="264dp"
+        android:fillViewport="false">
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/keyboard_background"
+            android:keyBackground="@drawable/key_background"
+            android:keyTextColor="@color/key_text"
+            android:keyTextSize="18sp"
+            android:labelTextSize="12sp"
+            android:keyPreviewLayout="@layout/key_preview"
+            android:shadowRadius="0.0" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:background="@color/category_bg"
+        android:padding="3dp">
+
+        <Button android:id="@+id/nav_prev"  style="@style/NavKey" android:layout_weight="12" android:text="◀" />
+        <Button android:id="@+id/nav_space" style="@style/NavKey" android:layout_weight="44" android:text="space" />
+        <Button android:id="@+id/nav_next"  style="@style/NavKey" android:layout_weight="12" android:text="▶" />
+        <Button android:id="@+id/nav_delete" style="@style/NavKey" android:layout_weight="16" android:text="⌫" />
+        <Button android:id="@+id/nav_enter" style="@style/NavKey" android:layout_weight="16" android:text="↵" />
+    </LinearLayout>
 </LinearLayout>
