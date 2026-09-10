@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Roman & Fractions — Symboard v1.1 scrollable page 36/36 (40 symbols) -->
+<!-- Roman & Fractions — Symboard v1.2 scrollable page 36/36 (40 device-renderable symbols) -->
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:keyWidth="12.5%p"
     android:horizontalGap="3dp"
