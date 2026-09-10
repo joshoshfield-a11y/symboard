@@ -71,8 +71,8 @@ class SymboardService : InputMethodService(), KeyboardView.OnKeyboardActionListe
 
     override fun onPress(primaryCode: Int) {}
     override fun onRelease(primaryCode: Int) {}
-    override fun onSwipeLeft() {}
-    override fun onSwipeRight() {}
+    override fun swipeLeft() {}
+    override fun swipeRight() {}
 
     companion object {
         private const val KEYCODE_PREV = -201
