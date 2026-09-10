@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Superscript — generated page 22/36 of Symboard -->
+<!-- Superscript — Symboard v1.1 scrollable page 22/36 (35 symbols) -->
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:keyWidth="12.5%p"
     android:horizontalGap="3dp"
@@ -49,12 +49,5 @@
         <Key android:keyOutputText="ˣ" android:keyLabel="ˣ" android:keyEdgeFlags="left" />
         <Key android:keyOutputText="ʸ" android:keyLabel="ʸ" />
         <Key android:keyOutputText="ᶻ" android:keyLabel="ᶻ" android:keyEdgeFlags="right" />
-    </Row>
-    <Row>
-        <Key android:codes="-201" android:keyLabel="◀" android:keyWidth="12%p" android:keyEdgeFlags="left" />
-        <Key android:codes="32" android:keyLabel="space" android:keyWidth="44%p" />
-        <Key android:codes="-202" android:keyLabel="▶" android:keyWidth="12%p" />
-        <Key android:codes="-5" android:keyLabel="⌫" android:keyWidth="16%p" android:isRepeatable="true" />
-        <Key android:codes="-4" android:keyLabel="↵" android:keyWidth="16%p" android:keyEdgeFlags="right" />
     </Row>
 </Keyboard>
