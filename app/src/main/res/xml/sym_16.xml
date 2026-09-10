@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Negative Circled — Symboard v1.1 scrollable page 16/36 (26 symbols) -->
+<!-- Negative Circled — Symboard v1.2 scrollable page 16/36 (26 device-renderable symbols) -->
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:keyWidth="12.5%p"
     android:horizontalGap="3dp"
